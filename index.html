@@ -14,19 +14,47 @@
 <body>
     <a-scene gltf-exporter>
         <a-assets>
-            <a-asset-item id="fish" src="3d/fish.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part0.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part1.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part2.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part3.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part4.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part5.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part6.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part7.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part8.glb"></a-asset-item>
+            <a-asset-item id="fish" src="3d/part9.glb"></a-asset-item>
+            
+            
+            
+            
+            
             <img id="img1" src="img/CAM1.jpg">
             <img id="img2" src="img/CAM2.jpg">
             <img id="img3" src="img/CAM3.jpg">
             <img id="img4" src="img/CAM4.jpg">
-            <img id="img5" src="img/CAM%.jpg">
-            <img id="img6" src="img/3dModel.jpg">
+            <img id="img5" src="img/CAM5.jpg">
+            <img id="img6" src="img/CAM6.jpg">
         </a-assets>
 
 
-        <a-entity position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        <a-entity id="cam1" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
         </a-entity>
-
+        
+        <a-entity id="cam2" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        </a-entity>
+        
+        <a-entity id="cam3" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        </a-entity>
+        
+        <a-entity id="cam4" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        </a-entity>
+        
+        <a-entity id="cam5" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        </a-entity>
+        
+        <a-entity id="cam6" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
+        </a-entity>
 
         <a-entity id="export-scene" class="navButton" geometry="primitive: plane;"
             material="src: #img1; transparent: true; opacity: 1; alpha-test: 0.5" position="-2.5 2.5 -2"
