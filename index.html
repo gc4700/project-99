@@ -14,16 +14,16 @@
 <body>
     <a-scene gltf-exporter>
         <a-assets>
-            <a-asset-item id="fish" src="3d/part0.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part1.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part2.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part3.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part4.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part5.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part6.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part7.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part8.glb"></a-asset-item>
-            <a-asset-item id="fish" src="3d/part9.glb"></a-asset-item>
+            <a-asset-item id="prt0" src="3d/part0.glb"></a-asset-item>
+            <a-asset-item id="prt1" src="3d/part1.glb"></a-asset-item>
+            <a-asset-item id="prt2" src="3d/part2.glb"></a-asset-item>
+            <a-asset-item id="prt3" src="3d/part3.glb"></a-asset-item>
+            <a-asset-item id="prt4" src="3d/part4.glb"></a-asset-item>
+            <a-asset-item id="prt5" src="3d/part5.glb"></a-asset-item>
+            <a-asset-item id="prt6" src="3d/part6.glb"></a-asset-item>
+            <a-asset-item id="prt7" src="3d/part7.glb"></a-asset-item>
+            <a-asset-item id="prt8" src="3d/part8.glb"></a-asset-item>
+            <a-asset-item id="prt9" src="3d/part9.glb"></a-asset-item>
             
             
             
@@ -36,6 +36,24 @@
             <img id="img5" src="img/CAM5.jpg">
             <img id="img6" src="img/CAM6.jpg">
         </a-assets>
+        
+        <a-entity id="prtassy" position="0 0 0" rotation="0 0 0" scale="1 1 1" >
+            <a-gltf-model id="#part0" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  >
+                <a-gltf-model id="#part1" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part2" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part3" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>    
+                <a-gltf-model id="#part4" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part5" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part6" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>        
+                <a-gltf-model id="#part7" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part8" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>
+                <a-gltf-model id="#part9" src="#prt0" position="0 0 0" rotation="0 0 0" scale="1 1 1"  ><a-gltf-model>               
+                    
+            <a-gltf-model>
+                
+                
+                
+        </a-entity>
 
 
         <a-entity id="cam1" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
