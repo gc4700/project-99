@@ -75,7 +75,7 @@
         <a-entity id="cam6" position="0 0 0" cursor="fuse: false; rayOrigin: mouse;" raycaster="objects: .navButton">
         </a-entity>
 
-        <a-entity id="export-scene" class="navButton" geometry="primitive: plane;"
+        <!--a-entity id="export-scene" class="navButton" geometry="primitive: plane;"
             material="src: #img1; transparent: true; opacity: 1; alpha-test: 0.5" position="-2.5 2.5 -2"
             scale="0.5 0.5 0.5"></a-entity>
 
@@ -97,7 +97,7 @@
         
             <a-entity id="export3d" class="navButton" geometry="primitive: plane;"
             material="src: #img6; transparent: true; opacity: 1; alpha-test: 0.5" position="2.5 2.5 -2"
-            scale="0.5 0.5 0.5"></a-entity>
+            scale="0.5 0.5 0.5"></a-entity>-->
 
 
 
@@ -113,9 +113,8 @@
         <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
         <a-cylinder id="cylinder" position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
         <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-
-        <a-entity id="model" gltf-model="#fish" rotation="0 90 0" position="2 1 -2" scale="0.02 0.02 0.02">
-        </a-entity>
+        <a-light type="hemispere" intensity="2.0" ></a-light>
+        <a-sky color"blue" radius="25" ></a-sky>
     </a-scene>
 
 
